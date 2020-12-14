@@ -99,6 +99,9 @@ export default {
         await this.$store.dispatch("task/sendTask", task).then(() => {
           loader.hide();
           this.$modal.hide("addmodal");
+          this.major_task.name = null
+          this.major_task.description = null
+          this.major_task.deadline = null
         });
       } else {
         this.feedback = "Please fill all required fields";

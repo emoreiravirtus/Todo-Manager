@@ -45,21 +45,12 @@
       <span class="card-title center">{{ task.name }}</span>
       <div class="card-content">
         <div class="fixed-action-btn horizontal">
-          <a class="btn-floating btn-large pink">
-            <i class="large material-icons">settings</i>
-          </a>
-          <ul>
-            <li>
               <a @click="Delete" class="btn-floating red"
                 ><i class="material-icons">delete</i></a
               >
-            </li>
-            <li>
               <a @click="showEditModal" class="btn-floating yellow darken-1"
                 ><i class="material-icons">create</i></a
               >
-            </li>
-          </ul>
         </div>
         <p><strong>Deadline</strong> {{ task.deadline | formatDate }}</p>
         <p v-if="task.description">
