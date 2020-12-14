@@ -1,0 +1,16 @@
+.secondary-btn{
+    padding: 0.3rem;
+    border-bottom: 0.3rem solid $color-primary-light;
+    transition: all .3s;
+
+    &:hover{
+        color: white !important;
+        background-color: $color-primary-light;
+        -webkit-transform: translateY(-0.2rem);
+        transform: translateY(-0.2rem);
+        border-bottom: 0.3rem solid white;
+        -webkit-box-shadow: 0 0 5px black;
+        box-shadow: 0 10px 5px #0000004f;
+    }
+    
+}

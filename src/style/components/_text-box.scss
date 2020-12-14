@@ -1,0 +1,21 @@
+.text-box {
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    -webkit-box-shadow: 0 0 6px #0000006b;
+    box-shadow: 0 0 6px #0000006b;
+    overflow: visible;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+
+    .text-box-title {
+        position: absolute;
+        top: 7.4rem;
+        background: white;
+        padding: 0.5rem;
+        right: 2.5rem;
+        box-shadow: -8px 10px 3px #00000038;
+    }
+}

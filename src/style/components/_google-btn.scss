@@ -1,0 +1,26 @@
+.google-btn{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-style: normal;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0px 8px;
+    vertical-align: middle;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(66, 82, 110) !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    background: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px 0px !important;
+
+    img{
+        position: absolute;
+        margin: 0.95rem 0.1rem;
+    }
+}

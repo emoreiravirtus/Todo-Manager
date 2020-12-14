@@ -1,0 +1,22 @@
+.register {
+  margin-top: 60px;
+
+  .text-box {
+    bottom: -5rem;
+    padding: 3rem;
+  }
+
+  .text-box-title {
+    top: -4.6rem;
+  }
+
+  .text-box-title-2 {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    padding: 0.5rem;
+    right: 2rem;
+    -webkit-box-shadow: -8px 10px 3px #00000038;
+    box-shadow: -8px 10px 3px #00000038;
+  }
+}
