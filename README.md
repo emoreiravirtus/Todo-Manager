@@ -1,4 +1,4 @@
-# manager
+# Todo Manager currently hosted [HERE](https://manager---todos.web.app/#/login)
 
 ## Project setup
 ```
