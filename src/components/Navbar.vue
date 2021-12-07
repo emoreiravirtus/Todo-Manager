@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="nav-wrapper pink">
-      <a href="#" class="brand-logo">Happy Hour</a>
+      <a href="#" class="brand-logo">Todo Manager</a>
     </div>
   </nav>
 </template>

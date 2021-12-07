@@ -9,7 +9,7 @@
           />
         </div>
         <div class="col s10">
-          <h2 class="center gradient-text">Welcome to Happy Hour</h2>
+          <h2 class="center gradient-text">Welcome to Todo Manager</h2>
         </div>
       </div>
       <div class="field">
